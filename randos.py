@@ -110,7 +110,7 @@ def affiche_tableau(tab, liste, label, width):
                    align='center'))
     ])
     
-    tableau.update_layout(width=1600)
+    tableau.update_layout(width=1100)
 
     st.write(label)
     st.write(tableau)
